@@ -88,10 +88,10 @@
 											    <div class="resume-timeline-item-desc pb-2 pt-2">
 												    <ul class="resume-timeline-list">
 														<p>Open source Go-based CLI application to deploy and manage Bitcoin smart contracts for inheritance. The system creates a two-path spending contract where an owner can spend funds immediately, while an inheritor can only spend after a specified time-lock expires.</p>
-														<li>Designed and built a P2WSH contract using <code>OP_IF/OP_ELSE</code> logic and an <code>OP_CHECKSEQUENCEVERIFY</code> (CSV) relative time-lock.</li>
+														<li>Designed and built a <code>P2WSH</code> contract using <code>OP_CHECKSEQUENCEVERIFY</code> (CSV) relative time-lock.</li>
 														<li>Implemented the full transaction lifecycle, from key and address generation to signing and broadcasting withdrawal transactions via an RPC client.</li>
 														<li>Structured the application with a modular design, separating concerns for key management, script construction, and transaction handling using the btcsuite library.</li>
-														<li>Technologies: Go, Bitcoin Script, P2WSH, btcsuite, <code>OP_CHECKSEQUENCEVERIFY</code>, Cobra (CLI).</li>
+														<li>Technologies: Go, Bitcoin Script, <code>P2WSH</code>, btcsuite, <code>OP_CHECKSEQUENCEVERIFY</code>, Cobra (CLI).</li>
 														<p><i class="fa-brands fa-github me-2"></i><a target="_blank" href="https://github.com/nikolay-stoev/Bitcoin-Inheritance" style="color: white;">https://github.com/nikolay-stoev/Bitcoin-Inheritance</a></p>
 												    </ul>
 												    
