@@ -75,6 +75,35 @@
 									
 									<hr>
 									
+									<section class="resume-experience-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Projects</h3>
+										<div class="position-relative">
+										    <article class="position-relative">
+											    <div class="resume-timeline-item-header mb-2">
+												    <div class="resume-position-meta d-flex justify-content-between mb-1">
+													    <div class="resume-position-time"><h3 class="resume-position-title mb-1">Bitcoin Inheritance Project</h3></div>
+														<div class="resume-company-name"><img src="assets/images/btc.svg" style="width: 20px; margin-right: 0.5rem; border-radius: 5px;"/><a style="color: white" target="_blank" href="https://github.com/nikolay-stoev/Bitcoin-Inheritance">Open Source</a></div>
+												    </div>
+											    </div>
+											    <div class="resume-timeline-item-desc pb-2 pt-2">
+												    <ul class="resume-timeline-list">
+														<p>Open source Go-based CLI application to deploy and manage Bitcoin smart contracts for inheritance. The system creates a two-path spending contract where an owner can spend funds immediately, while an inheritor can only spend after a specified time-lock expires.</p>
+														<li>Designed and built a P2WSH contract using <code>OP_IF/OP_ELSE</code> logic and an <code>OP_CHECKSEQUENCEVERIFY</code> (CSV) relative time-lock.</li>
+														<li>Implemented the full transaction lifecycle, from key and address generation to signing and broadcasting withdrawal transactions via an RPC client.</li>
+														<li>Structured the application with a modular design, separating concerns for key management, script construction, and transaction handling using the btcsuite library.</li>
+														<li>Technologies: Go, Bitcoin Script, P2WSH, btcsuite, <code>OP_CHECKSEQUENCEVERIFY</code>, Cobra (CLI).</li>
+														<p><i class="fa-brands fa-github me-2"></i><a target="_blank" href="https://github.com/nikolay-stoev/Bitcoin-Inheritance" style="color: white;">https://github.com/nikolay-stoev/Bitcoin-Inheritance</a></p>
+												    </ul>
+												    
+											    </div><!--//resume-timeline-item-desc-->
+		
+										    </article><!--//resume-timeline-item-->
+											
+							            </div><!--//resume-timeline-->
+									</section>
+									
+									<hr>
+									
 									<section class="resume-experience-section resume-section">
 										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience</h3>
 										<div class="resume-timeline position-relative">
@@ -86,7 +115,7 @@
 													    <div class="resume-position-time">Dec 2018 - Present, London, United Kingdom</div>
 													    <div class="resume-company-name"><img src="assets/images/tkwy.jpeg" style="width: 20px; margin-right: 0.5rem; border-radius: 5px;"/>Just Eat Takeaway.com</div>
 												    </div>
-											        <h3 class="resume-position-title mb-1">Senior Software Engineer</h3>
+											        <h3 class="resume-position-title mb-1">Senior Golang Software Engineer</h3>
 
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
